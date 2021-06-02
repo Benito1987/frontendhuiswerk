@@ -3,3 +3,65 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+/*2.1*/
+
+.one {
+    background-color: mediumslateblue;
+    width: 400px;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/*2.2*/
+.text{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+
+
+}
+/*2.3*/
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+.text
+    flex-basis: auto;
+}
+
+
+/*2.4*/
+.four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+
+}
+
+
+/*2.5*/
+.five{
+    display: flex
+
+
+.five > div {
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+
+
+
+
